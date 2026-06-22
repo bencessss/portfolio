@@ -8,3 +8,11 @@ body { color: #cbd5e1; line-height: 1.7; }
 .nav-links { display: flex; list-style: none; gap: 30px; }
 .nav-links a { color: #94a3b8; text-decoration: none; font-size: 15px; font-weight: 500; }
 .nav-links a:hover, .email-link:hover { color: #fff; text-decoration: underline; }
+section { padding: 80px 8%; max-width: 1000px; }
+.projects, .contact { background-color: #0f172a; max-width: 100%; }
+h1, h2, h3, h4 { color: #fff; font-weight: 800; }
+h1 { font-size: 46px; margin-bottom: 15px; }
+.subtitle { font-size: 22px; color: #94a3b8; margin-bottom: 25px; font-weight: 600; }
+h2 { font-size: 32px; margin-bottom: 15px; }
+.description, .project-desc, .skill-card p, .section-desc { color: #94a3b8; font-size: 15px; margin-bottom: 35px; text-align: justify; }
+.section-desc { color: #64748b; font-size: 16px; margin-bottom: 45px; max-width: 800px; }
